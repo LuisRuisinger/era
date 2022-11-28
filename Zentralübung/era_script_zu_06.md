@@ -56,7 +56,7 @@ begin
 
 -- logical behavior --
 
-end architecture <a-name>
+end architecture <a-name>;
 ```
 
 - `<a-name>` := Architekturname
@@ -76,7 +76,7 @@ component <c-name> is
 		... : in  std_logic;
 		... : out std_logic
 	);
-end component <c-name>
+end component <c-name>;
 
 -- intern signals --
 ...
@@ -110,10 +110,10 @@ architecture <a-name> of <name> is
 
 begin 
 
-<s-name_n> oder <defined-output> <= <defined-input> <operation> <defined-input>
+<s-name_n> oder <defined-output> <= <defined-input> <operation> <defined-input>;
 ...
 
-end architecture <a-name>
+end architecture <a-name>;
 ```
 
 - Der Output einer Operation wird mit `<=` zugewiesen und kann zugeteilt werden:
