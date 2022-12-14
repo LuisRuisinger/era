@@ -1,4 +1,4 @@
->[!NOTE] Definition
+>#### Definition
 >Die Flags bilden ein eigenes Register und sind jeweils nur durch ein einzelnes Bit beschrieben. Dieses Bit kann durch bestimmte Operationen gesetzt werden und bietet die Möglichkeit mit bedingten Sprügen den Programmablauf abzuändern. 
 
 <br>
@@ -23,13 +23,13 @@
 
 ### Vergleichsoperationen
 
->Vergleichsoperationen erlauben mithilfe von [[Sprünge |Sprüngen]] vom Abweich der sequentiellen Programmabarbeitung und dienen zur Realisation von [[Unterprogramme |Unterprogrammen]] und [[Speicher in x86 Assembly |Arraydurchläufen]]
+>Vergleichsoperationen erlauben mithilfe von [Sprüngen](./Sprünge.md) vom Abweich der sequentiellen Programmabarbeitung und dienen zur Realisation von [Unterprogrammen](./Unterprogramme.md) und [Iterationen](./Speicher%20in%20x86%20Assembly.md)
 
 <br>
 
 ##### TEST
 
->[!NOTE] Definition
+>#### Definition
 >
 >Die TEST Instruktion führt ein bitweises AND mit beiden Operanden aus und setzt dem Resultat ensprechend die SF, ZF und PF Flag. Die OF und CF Flag werden dabei auf 0 gesetzt. Die AF Flag ist undefiniert. Die Operanden selbst werden dabei nicht verändert. TEST ist nicht sign extended
 
@@ -47,7 +47,7 @@ section .text
 
 ##### CMP
 
->[!NOTE] Definition
+>#### Definition
 >
 >Die CMP Instruktion vergleicht den ersten Operanden mit dem zweiten. Die eigentliche Vergleichsoperation ist eine Subtraktion mit wessen Resultat entsprechend die CF, OF, SF, ZF, AF und PF Flag gesetzt werden. CMP sign extended ungleiche Operanden.
 
@@ -60,8 +60,3 @@ section .text
 	CMP EAX, BL   ; möglich
 	CMP EAX, 0xFF ; möglich
 ```
-
-
-<br>
-
->Unterkapitel von [[x86 Assembly]]

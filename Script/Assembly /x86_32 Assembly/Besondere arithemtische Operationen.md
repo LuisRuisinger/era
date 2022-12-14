@@ -32,7 +32,3 @@ IDIV <Quelle> - signed
 
 > `EAX` $:=$ `(EDX:EAX)/Quelle`
 > `EDX` $:=$ `Rest`
-
-<br>
-
->Unterkapitel von [[x86 Assembly]]

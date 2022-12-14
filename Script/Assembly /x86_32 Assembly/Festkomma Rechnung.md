@@ -1,12 +1,12 @@
->[!NOTE] Definition
+>#### Definition
 >
 >Anders als Floating-Point Numbers sind Fixed-Point-Numbers fest unterteilt in Vorkomma- und Nachkommastellen. Hierbei beschreibt `n.n` die Anzahl der Vorkomma- und Nachkommastellen.
->Demnach fordert eine Konvertierung auf Fixed-Point einen [[Shifts |logischen Linksshift]] um $n$ Stellen. 
+>Demnach fordert eine Konvertierung auf Fixed-Point einen [logischen Linksshift](./Shifts.md) um $n$ Stellen. 
 >Analog dazu folgt die Konvertierung auf einen Integer.
 
 <br>
 
->[!EXAMPLE] Beispiel anhand 8.8 Festkomma Zahl
+>#### Beispiel anhand 8.8 Festkomma Zahl
 >
 >Darstellung von $2.5$ als $8.8$ Fixed-Point-Number:
 >
@@ -18,7 +18,7 @@
 
 ### Multiplikation
 
->[[Besondere arithemtische Operationen |Arithmetische Operationen]] behandeln Festkommazahlen wie normale Integer
+>[Arithmetische Operationen](./Besondere%20arithemtische%20Operationen.md) behandeln Festkommazahlen wie normale Integer
 >Demnach resultiert daraus eine `16.16 Fixed-Point-Number` die man durch $8$ Bit logischen Linksshift zurück in das richtige Format bringt.
 >$\Rightarrow$ Verlust von $8$ Bit Präzision
 
@@ -62,7 +62,3 @@ section .text
 	SHL EAX, 8    ; Formatierung von 8.8 auf 8.16
 	DIV EBX       ; 8.16 und 8.8 werden zu 8.8
 ```
-
-<br>
-
->Unterkapitel von [[x86 Assembly]]

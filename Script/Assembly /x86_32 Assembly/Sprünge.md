@@ -1,17 +1,17 @@
->[!NOTE] Definition
+>#### Definition
 >
 >Sprünge können zu der Abweichung von der sequentiellen Befehlsfolge führen.
->Diese können bedingt durch das Setzen von [[Flags]] und unbedingt ausgelöst werden und zur Umsetzung von [[Unterprogramme |Unterprogrammen]] genutzt werden
+>Diese können bedingt durch das Setzen von [Flags](./Flags.md) und unbedingt ausgelöst werden und zur Umsetzung von [Unterprogrammen](./Unterprogramme.md) genutzt werden
 
 <br>
 
-> `JMP <Adresse/Label>` $\rightarrow$ unbedingter Sprung an vorgegebene Adresse / Label
+>`JMP <Adresse/Label>` $\rightarrow$ unbedingter Sprung an vorgegebene Adresse / Label
 
 <br>
 
 ### Bedingte Sprünge
 
->Sprünge welche nur ausgeführt werden beim Setzen der jeweiligen [[Flags |Flag]]
+>Sprünge welche nur ausgeführt werden beim Setzen der jeweiligen [Flag](./Flags.md)
 
 <br>
 

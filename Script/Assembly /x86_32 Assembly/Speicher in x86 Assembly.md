@@ -106,7 +106,7 @@ section .text
 
 <br>
 
- >letzter Punkt wird nicht benötigt wenn wir ein Register als Operand inkludieren
+>letzter Punkt wird nicht benötigt wenn wir ein Register als Operand inkludieren
 
 ```nasm
 section .text
@@ -133,7 +133,7 @@ section .text
 
 ### Indirekte Adressierung
 
-> durch indirekte Adressierung und die verwendung von bedingten [[Sprünge |Sprüngen]] ist eine fortlaufende Iteration durch längere Daten (wie Arrays) möglich
+> durch indirekte Adressierung und die verwendung von bedingten [Sprüngen](./Sprünge.md) ist eine fortlaufende Iteration durch längere Daten (wie Arrays) möglich
 
 <br>
 
@@ -160,8 +160,3 @@ section .text
 ```
 
 > größter möglicher indirekter Zugriff
-
-<br>
-
->Unterkapitel von [[x86 Assembly]]
->Unterkapitel von [[Speicheraufbau]]

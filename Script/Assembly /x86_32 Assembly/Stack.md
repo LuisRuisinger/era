@@ -1,4 +1,4 @@
->[!NOTE] Definition
+>#### Definition
 >
 >Eine Liste von Werten die aufeinanderliegen und nach unten durch neue Einträge dynamisch wächst.  Das rauflegen und abnehmen von Daten erfolgt nach dem LIFO Prinzip. 
 >Das Ende des Stackpointers wird durch den Stackpointer gekennzeichnet welcher sich im `ESP` Register befindet. 
@@ -9,7 +9,7 @@
 
 ### PUSH
 
->[!NOTE] Definition
+>#### Definition
 >
 >Die Instruktion `PUSH` setzt einen neuen Wert auf den Stack. Der Stackpointer wird um eins verringert.
 
@@ -28,7 +28,7 @@ section .text
 
 ### POP
 
->[!NOTE]
+>#### Definition
 >
 >Die Instruktion `POP` nimmt den letzten Wert vom Stack. Die Größe des heruntergenommenen Wertes entspricht der Größe des Zieloperanden.
 >Der Stackpointer wird zudem um die Byteanzahl des Zieloperanden addiert.
@@ -46,8 +46,4 @@ section .text
 
 ### Lokale Variablen
 
->siehe [[Unterprogramme]]
-
-<br>
-
->Unterkapitel von [[x86 Assembly]]
+>siehe [Unterprogramme](./Unterprogramme.md)

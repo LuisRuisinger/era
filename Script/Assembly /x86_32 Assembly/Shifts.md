@@ -1,14 +1,14 @@
 ### Logische Shift Instruktion
 
->[!NOTE] Definition
+>#### Definition
 >
 >Mithilfe einer logischen Shift Instruktion `SH[L/R] Quelle n` werden die Bits des Quelloperanden in eine gewisse Richtung um $n$ Bits verschoben. Dabei gehen die Bits verloren die bei dem Shift ausserhalb der 32 Bit geschoben werden. 
->Das letzte "rausgeshiftete" Bit kommt in die [[Flags |CF]]. 
+>Das letzte "rausgeshiftete" Bit kommt in die [CF](./Flags.md). 
 >Die neu entstehenden leeren Bits werden mit 0 belegt.
 
 <br>
 
->Verwendbar als $2^n$ vorzeichenlose Multiplikation / Division
+>Verwendbar als $2^n$ vorzeichenlose [Multiplikation / Division](./Besondere%20arithemtische%20Operationen.md)
 
 <br>
 
@@ -24,11 +24,11 @@ section .text
 
 ### Arithmetische Shift Instruktion
 
->[!NOTE] Definition
+>#### Definition
 >
 >Mithilfe einer arithmetischen Shift Instruktion `SA[L/R] Quelle n` werden die Bits des Quelloperanden in eine gewisse Richtung um $n$ Bits verschoben. 
 >`SAL` verhällt sich dabei genau wie `SHL`. 
->`SAR` shiftet rechts unter Bewahrung des Vorzeichen. Somit erhalten alle neu entstehenden Bits den Wert des höchsten Bit. `SA[L/R]` interpretiert die Zahlen im [[Zweierkomplement]]
+>`SAR` shiftet rechts unter Bewahrung des Vorzeichen. Somit erhalten alle neu entstehenden Bits den Wert des höchsten Bit. `SA[L/R]` interpretiert die Zahlen im [Zweierkomplement](../../Zweierkomplement.md)
 >Das letzte "rausgeshiftete" Bit kommt in die CF.
 
 <br>
@@ -49,7 +49,7 @@ section .text
 
 ### Rotier Instruktion
 
->[!NOTE] Definition
+>#### Definition
 >
 >Mithilfe der rotier Instruktion `RO[L/R] Quelle n` werden die Bits des Quelloperanden in eine gewissen Richtung um `n` Bits verschoben.
 >Dabei wird bei `ROL` das most-significant Bit auf die Position des least-significant Bit rotiert.
@@ -76,7 +76,7 @@ section .text
 
 ### Rotier Instruktion durch Carry
 
->[!NOTE] Definition
+>#### Definition
 >
 >Anders als die Rotier Instruktion wird bei einem Shift das rausrotierte Bit in die CF geschoben. Der Inhalt der CF kommt an die neu enstandende Stelle durch die rotier Operation.
 >Die Rotier Instruktion unter Beinhaltung der CF lautet `RC[L/R] Quelle n`.
@@ -96,7 +96,3 @@ section .text
 	RCL AL, 1    ; 1110 0000 - CF = 1
 	RCR AL, 1    ; 1111 0000 - CF = 0
 ```
-
-<br>
-
->Unterkapitel von [[x86 Assembly]]
