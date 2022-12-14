@@ -1,7 +1,7 @@
 >#### Definition
 >
 >Die Calling Convention beschreibt in welcher Ordnung Parameter allokiert werden. 
->Wie und in welcher Reihenfolge Parameter übergeben werden. Dies kann über [Register](../../Register.md) oder dem [Stack](./Stack.md) geschehen.
+>Wie und in welcher Reihenfolge Parameter übergeben werden. Dies kann über [Register](../../../Register.md) oder dem [Stack](./Stack.md) geschehen.
 >Wie Rückgabewerte gespeichert werden. 
 >Welche Register für den Caller (volatile registers) und welche für den Callee (non-volatile registers) gesichert werden.
 >Und wie der Stack von Caller und Callee gesichert und manipuliert werden darf.

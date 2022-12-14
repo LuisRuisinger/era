@@ -8,7 +8,7 @@
 
 <br>
 
->Verwendbar als $2^n$ vorzeichenlose [Multiplikation / Division](./Besondere%20arithemtische%20Operationen.md)
+>Verwendbar als $2^n$ vorzeichenlose [Multiplikation / Division](./Besondere arithemtische Operationen.md)
 
 <br>
 
@@ -28,7 +28,7 @@ section .text
 >
 >Mithilfe einer arithmetischen Shift Instruktion `SA[L/R] Quelle n` werden die Bits des Quelloperanden in eine gewisse Richtung um $n$ Bits verschoben. 
 >`SAL` verhällt sich dabei genau wie `SHL`. 
->`SAR` shiftet rechts unter Bewahrung des Vorzeichen. Somit erhalten alle neu entstehenden Bits den Wert des höchsten Bit. `SA[L/R]` interpretiert die Zahlen im [Zweierkomplement](../../Zweierkomplement.md)
+>`SAR` shiftet rechts unter Bewahrung des Vorzeichen. Somit erhalten alle neu entstehenden Bits den Wert des höchsten Bit. `SA[L/R]` interpretiert die Zahlen im [Zweierkomplement](IdeaProjects/era/Script/Zweierkomplement.md)
 >Das letzte "rausgeshiftete" Bit kommt in die CF.
 
 <br>

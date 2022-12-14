@@ -18,7 +18,7 @@
 
 ### Multiplikation
 
->[Arithmetische Operationen](./Besondere%20arithemtische%20Operationen.md) behandeln Festkommazahlen wie normale Integer
+>[Arithmetische Operationen](./Besondere arithemtische Operationen.md) behandeln Festkommazahlen wie normale Integer
 >Demnach resultiert daraus eine `16.16 Fixed-Point-Number` die man durch $8$ Bit logischen Linksshift zurück in das richtige Format bringt.
 >$\Rightarrow$ Verlust von $8$ Bit Präzision
 

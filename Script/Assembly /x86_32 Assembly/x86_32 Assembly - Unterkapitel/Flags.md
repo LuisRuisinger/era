@@ -23,7 +23,7 @@
 
 ### Vergleichsoperationen
 
->Vergleichsoperationen erlauben mithilfe von [Sprüngen](./Sprünge.md) vom Abweich der sequentiellen Programmabarbeitung und dienen zur Realisation von [Unterprogrammen](./Unterprogramme.md) und [Iterationen](./Speicher%20in%20x86%20Assembly.md)
+>Vergleichsoperationen erlauben mithilfe von [Sprüngen](.l/Sprünge.md) vom Abweich der sequentiellen Programmabarbeitung und dienen zur Realisation von [Unterprogrammen](./Unterprogramme.md) und [Iterationen](./Speicher%20in%20x86%20Assembly.md)
 
 <br>
 
