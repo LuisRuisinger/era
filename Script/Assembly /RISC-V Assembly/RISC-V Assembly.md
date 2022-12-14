@@ -24,21 +24,16 @@
 
 ### Unterkapitel
 
->[[RISC-V Register]]
+>[RISC-V Register](./RISC-V%20Assembly%20Unterkapitel/RISC-V%20Register.md)
 >
->[[RISC-V Speicher]]
+>[RISC-V Speicher](./RISC-V%20Assembly%20Unterkapitel/RISC-V%20Speicher.md)
 >
->[[RISC-V Shifts]]
+>[RISC-V Shifts](./RISC-V%20Assembly%20Unterkapitel/RISC-V%20Shifts.md)
 >
->[[RISC-V Multiplikation]]
+>[RISC-V Multiplikation](./RISC-V%20Assembly%20Unterkapitel/RISC-V%20Multiplikation.md)
 >
->[[RISC-V Division]]
+>[RISC-V Division](./RISC-V%20Assembly%20Unterkapitel/RISC-V%20Division.md)
 >
->[[RISC-V Sprünge]]
+>[RISC-V Sprünge](./RISC-V%20Assembly%20Unterkapitel/RISC-V%20Sprünge.md)
 >
->[[RISC-V Instruktionscodierung]]
-
-
-<br>
-
->Unterkapitel von [[Assembly]]
+>[RISC-V Instruktionscodierung](./RISC-V%20Assembly%20Unterkapitel/RISC-V%20Instruktionscodierung.md)
