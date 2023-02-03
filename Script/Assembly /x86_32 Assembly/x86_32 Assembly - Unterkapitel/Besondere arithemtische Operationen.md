@@ -1,11 +1,11 @@
 ### Multiplikation
 
 ```nasm
-MUL <Quelle> - signed
+MUL <Quelle> - unsigned
 ```
 
 ```nasm
-IMUL <Quelle> - unsigned
+IMUL <Quelle> - signed
 ```
 
 >`EDX:EAX` $:=$ `EAX` $\cdot$ `Quelle` (Konkatiniertes 64 Bit Ergebnis)
